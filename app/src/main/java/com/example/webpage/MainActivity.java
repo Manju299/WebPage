@@ -15,7 +15,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         myWebView = findViewById(R.id.webview);
         myWebView.setWebViewClient(new WebViewClient());
-        myWebView.loadUrl("https://jioevents.com");
+        myWebView.loadUrl("https://www.w3schools.com");
         WebSettings webSettings=myWebView.getSettings();
         webSettings.setJavaScriptEnabled(true);
         getSupportActionBar().hide();
